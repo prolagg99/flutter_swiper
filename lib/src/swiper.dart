@@ -901,7 +901,7 @@ class _StackViewState extends _CustomLayoutStateBase<_StackSwiper> {
         : new Offset(0.0, f);
 
     Alignment alignment = widget.scrollDirection == Axis.horizontal
-        ? Alignment.centerRight
+        ? Alignment.centerLeft
         : Alignment.topCenter;
 
     return new Opacity(
